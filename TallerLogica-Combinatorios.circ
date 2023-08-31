@@ -125,61 +125,42 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="Cin"/>
     </comp>
-    <comp lib="0" loc="(640,440)" name="Pin">
+    <comp lib="0" loc="(840,310)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Cout"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(730,110)" name="Pin">
+    <comp lib="0" loc="(850,140)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(590,120)" name="OR Gate"/>
-    <comp lib="1" loc="(600,210)" name="NOT Gate"/>
-    <comp lib="1" loc="(620,310)" name="AND Gate"/>
-    <comp lib="1" loc="(680,180)" name="AND Gate"/>
+    <comp lib="1" loc="(800,310)" name="OR Gate"/>
     <comp loc="(490,130)" name="sumador_simple"/>
-    <comp loc="(500,330)" name="sumador_simple"/>
+    <comp loc="(780,130)" name="sumador_simple"/>
     <wire from="(140,280)" to="(140,290)"/>
     <wire from="(150,140)" to="(190,140)"/>
     <wire from="(150,210)" to="(210,210)"/>
-    <wire from="(150,280)" to="(170,280)"/>
-    <wire from="(170,230)" to="(170,280)"/>
-    <wire from="(170,230)" to="(300,230)"/>
-    <wire from="(170,280)" to="(500,280)"/>
+    <wire from="(150,280)" to="(540,280)"/>
     <wire from="(190,130)" to="(190,140)"/>
     <wire from="(190,130)" to="(270,130)"/>
-    <wire from="(190,140)" to="(190,330)"/>
-    <wire from="(190,330)" to="(280,330)"/>
     <wire from="(210,150)" to="(210,210)"/>
     <wire from="(210,150)" to="(270,150)"/>
-    <wire from="(210,210)" to="(210,350)"/>
-    <wire from="(210,350)" to="(280,350)"/>
-    <wire from="(280,330)" to="(290,330)"/>
-    <wire from="(300,210)" to="(300,230)"/>
-    <wire from="(300,210)" to="(570,210)"/>
-    <wire from="(490,130)" to="(510,130)"/>
-    <wire from="(490,330)" to="(500,330)"/>
-    <wire from="(500,280)" to="(500,290)"/>
-    <wire from="(500,290)" to="(570,290)"/>
-    <wire from="(500,330)" to="(570,330)"/>
-    <wire from="(510,100)" to="(510,130)"/>
-    <wire from="(510,100)" to="(540,100)"/>
-    <wire from="(590,120)" to="(610,120)"/>
-    <wire from="(600,210)" to="(610,210)"/>
-    <wire from="(610,120)" to="(610,160)"/>
-    <wire from="(610,160)" to="(630,160)"/>
-    <wire from="(610,200)" to="(610,210)"/>
-    <wire from="(610,200)" to="(630,200)"/>
-    <wire from="(620,310)" to="(710,310)"/>
-    <wire from="(630,440)" to="(640,440)"/>
-    <wire from="(680,180)" to="(710,180)"/>
-    <wire from="(710,110)" to="(710,180)"/>
-    <wire from="(710,110)" to="(730,110)"/>
-    <wire from="(710,180)" to="(710,310)"/>
+    <wire from="(490,130)" to="(560,130)"/>
+    <wire from="(490,150)" to="(490,330)"/>
+    <wire from="(490,330)" to="(750,330)"/>
+    <wire from="(540,150)" to="(540,280)"/>
+    <wire from="(540,150)" to="(560,150)"/>
+    <wire from="(720,250)" to="(720,290)"/>
+    <wire from="(720,250)" to="(780,250)"/>
+    <wire from="(720,290)" to="(750,290)"/>
+    <wire from="(780,130)" to="(820,130)"/>
+    <wire from="(780,150)" to="(780,250)"/>
+    <wire from="(800,310)" to="(840,310)"/>
+    <wire from="(820,130)" to="(820,140)"/>
+    <wire from="(820,140)" to="(850,140)"/>
   </circuit>
   <circuit name="sumador_4">
     <a name="appearance" val="logisim_evolution"/>
