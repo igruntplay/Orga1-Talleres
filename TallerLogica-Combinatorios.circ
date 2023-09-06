@@ -5,6 +5,7 @@
   <lib desc="#Wiring" name="0">
     <tool name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
     </tool>
   </lib>
   <lib desc="#Gates" name="1"/>
@@ -595,6 +596,11 @@
       <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(1640,780)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="modo_sin_signo"/>
+    </comp>
     <comp lib="0" loc="(1690,430)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
@@ -698,87 +704,91 @@
     <comp lib="2" loc="(1510,690)" name="Multiplexer">
       <a name="selloc" val="tr"/>
     </comp>
+    <comp lib="2" loc="(1590,760)" name="Multiplexer">
+      <a name="facing" val="north"/>
+      <a name="selloc" val="tr"/>
+    </comp>
     <comp lib="2" loc="(890,630)" name="Multiplexer">
       <a name="selloc" val="tr"/>
     </comp>
-    <comp lib="8" loc="(1015,818)" name="Text">
+    <comp lib="8" loc="(1015,815)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="ese_caso_de_la_resta"/>
     </comp>
-    <comp lib="8" loc="(1067,403)" name="Text">
+    <comp lib="8" loc="(1065,400)" name="Text">
       <a name="text" val="11:or"/>
     </comp>
-    <comp lib="8" loc="(1072,386)" name="Text">
-      <a name="text" val="10:and"/>
-    </comp>
-    <comp lib="8" loc="(1074,371)" name="Text">
+    <comp lib="8" loc="(1070,370)" name="Text">
       <a name="text" val="01:resta"/>
     </comp>
-    <comp lib="8" loc="(1076,356)" name="Text">
+    <comp lib="8" loc="(1070,385)" name="Text">
+      <a name="text" val="10:and"/>
+    </comp>
+    <comp lib="8" loc="(1075,355)" name="Text">
       <a name="text" val="00:suma"/>
     </comp>
-    <comp lib="8" loc="(1132,497)" name="Text">
+    <comp lib="8" loc="(1130,495)" name="Text">
       <a name="text" val="0:suma_y_resta"/>
     </comp>
-    <comp lib="8" loc="(1143,512)" name="Text">
+    <comp lib="8" loc="(1140,510)" name="Text">
       <a name="text" val="1:el_caso"/>
     </comp>
-    <comp lib="8" loc="(1244,99)" name="Text">
+    <comp lib="8" loc="(1240,95)" name="Text">
       <a name="text" val="1:and_y_or"/>
     </comp>
-    <comp lib="8" loc="(1263,82)" name="Text">
+    <comp lib="8" loc="(1260,80)" name="Text">
       <a name="text" val="0:suma_y_resta"/>
     </comp>
-    <comp lib="8" loc="(1277,523)" name="Text">
+    <comp lib="8" loc="(1275,520)" name="Text">
       <a name="text" val="1:and_y_or"/>
     </comp>
-    <comp lib="8" loc="(1296,506)" name="Text">
+    <comp lib="8" loc="(1295,505)" name="Text">
       <a name="text" val="0:suma_y_resta"/>
     </comp>
-    <comp lib="8" loc="(1324,616)" name="Text">
-      <a name="text" val="1:and_y_or"/>
-    </comp>
-    <comp lib="8" loc="(1324,730)" name="Text">
+    <comp lib="8" loc="(1320,730)" name="Text">
       <a name="text" val="0:carry"/>
     </comp>
-    <comp lib="8" loc="(1332,747)" name="Text">
-      <a name="text" val="1:borrow"/>
-    </comp>
-    <comp lib="8" loc="(1342,599)" name="Text">
-      <a name="text" val="0:suma_y_resta"/>
-    </comp>
-    <comp lib="8" loc="(1479,739)" name="Text">
+    <comp lib="8" loc="(1325,613)" name="Text">
       <a name="text" val="1:and_y_or"/>
     </comp>
-    <comp lib="8" loc="(1499,722)" name="Text">
+    <comp lib="8" loc="(1330,745)" name="Text">
+      <a name="text" val="1:borrow"/>
+    </comp>
+    <comp lib="8" loc="(1345,593)" name="Text">
       <a name="text" val="0:suma_y_resta"/>
     </comp>
-    <comp lib="8" loc="(359,1165)" name="Text">
+    <comp lib="8" loc="(1489,739)" name="Text">
+      <a name="text" val="1:and_y_or"/>
+    </comp>
+    <comp lib="8" loc="(1509,724)" name="Text">
+      <a name="text" val="0:suma_y_resta"/>
+    </comp>
+    <comp lib="8" loc="(355,1165)" name="Text">
       <a name="text" val="a_es_negativo"/>
     </comp>
     <comp lib="8" loc="(435,1115)" name="Text">
       <a name="text" val="b_es_8"/>
     </comp>
-    <comp lib="8" loc="(466,166)" name="Text">
+    <comp lib="8" loc="(465,165)" name="Text">
       <a name="font" val="SansSerif bolditalic 32"/>
       <a name="text" val="ALU  &lt;3"/>
     </comp>
-    <comp lib="8" loc="(483,776)" name="Text">
+    <comp lib="8" loc="(480,775)" name="Text">
       <a name="text" val="op:or"/>
     </comp>
-    <comp lib="8" loc="(516,533)" name="Text">
+    <comp lib="8" loc="(515,530)" name="Text">
       <a name="text" val="op:and"/>
     </comp>
-    <comp lib="8" loc="(615,999)" name="Text">
+    <comp lib="8" loc="(615,995)" name="Text">
       <a name="text" val="es_resta"/>
     </comp>
-    <comp lib="8" loc="(715,903)" name="Text">
+    <comp lib="8" loc="(715,900)" name="Text">
       <a name="text" val="detector_b_es_0_no_borrow"/>
     </comp>
-    <comp lib="8" loc="(893,612)" name="Text">
+    <comp lib="8" loc="(890,610)" name="Text">
       <a name="text" val="1:or"/>
     </comp>
-    <comp lib="8" loc="(900,598)" name="Text">
+    <comp lib="8" loc="(900,595)" name="Text">
       <a name="text" val="0:and"/>
     </comp>
     <comp loc="(1170,120)" name="comparador_cero"/>
@@ -823,26 +833,38 @@
     <wire from="(1230,470)" to="(1230,520)"/>
     <wire from="(1230,470)" to="(1380,470)"/>
     <wire from="(1240,130)" to="(1280,130)"/>
-    <wire from="(1250,540)" to="(1510,540)"/>
+    <wire from="(1250,540)" to="(1440,540)"/>
     <wire from="(1260,570)" to="(1260,600)"/>
     <wire from="(1260,570)" to="(1380,570)"/>
     <wire from="(1280,130)" to="(1280,190)"/>
     <wire from="(1280,190)" to="(1490,190)"/>
     <wire from="(1280,620)" to="(1420,620)"/>
     <wire from="(1340,700)" to="(1340,710)"/>
-    <wire from="(1360,680)" to="(1480,680)"/>
+    <wire from="(1360,680)" to="(1410,680)"/>
     <wire from="(1380,320)" to="(1380,470)"/>
     <wire from="(1380,470)" to="(1380,570)"/>
     <wire from="(1380,570)" to="(1490,570)"/>
+    <wire from="(1410,680)" to="(1410,810)"/>
+    <wire from="(1410,680)" to="(1480,680)"/>
+    <wire from="(1410,810)" to="(1600,810)"/>
     <wire from="(1420,80)" to="(1420,620)"/>
     <wire from="(1420,80)" to="(1430,80)"/>
+    <wire from="(1440,540)" to="(1440,850)"/>
+    <wire from="(1440,850)" to="(1580,850)"/>
     <wire from="(1470,700)" to="(1480,700)"/>
     <wire from="(1490,570)" to="(1490,670)"/>
     <wire from="(1510,270)" to="(1510,540)"/>
     <wire from="(1510,270)" to="(1560,270)"/>
+    <wire from="(1510,540)" to="(1570,540)"/>
     <wire from="(1510,690)" to="(1600,690)"/>
+    <wire from="(1570,540)" to="(1570,750)"/>
+    <wire from="(1570,750)" to="(1590,750)"/>
+    <wire from="(1580,790)" to="(1580,850)"/>
+    <wire from="(1590,750)" to="(1590,760)"/>
     <wire from="(1600,370)" to="(1600,690)"/>
     <wire from="(1600,370)" to="(1620,370)"/>
+    <wire from="(1600,790)" to="(1600,810)"/>
+    <wire from="(1610,780)" to="(1640,780)"/>
     <wire from="(220,210)" to="(1110,210)"/>
     <wire from="(220,210)" to="(220,640)"/>
     <wire from="(220,640)" to="(240,640)"/>
