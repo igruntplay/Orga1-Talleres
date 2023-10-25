@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+<project source="3.7.2" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.7.2(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
     <tool name="Pin">
@@ -1205,19 +1205,6 @@
       <rect height="20" stroke="none" width="200" x="60" y="190"/>
       <rect fill="none" height="160" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="204">Registers</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="60"/>
-      <circ-port dir="in" pin="1090,750" x="270" y="140"/>
-      <circ-port dir="in" pin="1150,690" x="270" y="80"/>
-      <circ-port dir="in" pin="270,240" x="100" y="40"/>
-      <circ-port dir="in" pin="270,270" x="130" y="40"/>
-      <circ-port dir="in" pin="300,710" x="270" y="60"/>
-      <circ-port dir="in" pin="300,760" x="270" y="100"/>
-      <circ-port dir="in" pin="330,190" x="50" y="100"/>
-      <circ-port dir="out" pin="1210,650" x="50" y="140"/>
-      <circ-port dir="out" pin="810,80" x="270" y="160"/>
-      <circ-port dir="out" pin="930,140" x="270" y="180"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
       <circ-port height="10" pin="1210,650" width="10" x="45" y="135"/>
       <circ-port height="10" pin="810,80" width="10" x="265" y="155"/>
@@ -1229,7 +1216,6 @@
       <circ-port height="8" pin="300,710" width="8" x="266" y="56"/>
       <circ-port height="8" pin="300,760" width="8" x="266" y="96"/>
       <circ-port height="8" pin="330,190" width="8" x="46" y="96"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(1090,750)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -1471,11 +1457,7 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="R6"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(1145,680)" name="Text">
-=======
     <comp lib="8" loc="(1149,682)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
@@ -1622,17 +1604,6 @@
       <rect height="20" stroke="none" width="200" x="60" y="160"/>
       <rect fill="none" height="130" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="174">PC</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="60"/>
-      <circ-port dir="in" pin="140,370" x="270" y="120"/>
-      <circ-port dir="in" pin="140,450" x="270" y="150"/>
-      <circ-port dir="in" pin="160,240" x="100" y="40"/>
-      <circ-port dir="in" pin="160,270" x="130" y="40"/>
-      <circ-port dir="in" pin="200,410" x="50" y="90"/>
-      <circ-port dir="in" pin="450,450" x="270" y="90"/>
-      <circ-port dir="out" pin="450,340" x="270" y="60"/>
-      <circ-port dir="out" pin="450,410" x="50" y="130"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
       <circ-port height="10" pin="450,340" width="10" x="265" y="55"/>
       <circ-port height="10" pin="450,410" width="10" x="45" y="125"/>
@@ -1642,7 +1613,6 @@
       <circ-port height="8" pin="160,270" width="8" x="126" y="36"/>
       <circ-port height="8" pin="200,410" width="8" x="46" y="86"/>
       <circ-port height="8" pin="450,450" width="8" x="266" y="86"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(140,370)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -1704,11 +1674,7 @@
     <comp lib="4" loc="(310,410)" name="Counter">
       <a name="appearance" val="classic"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(170,380)" name="Text">
-=======
     <comp lib="8" loc="(174,381)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
@@ -1774,24 +1740,6 @@
       <rect height="20" stroke="none" width="200" x="60" y="250"/>
       <rect fill="none" height="220" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="264">ALU</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="70"/>
-      <circ-port dir="in" pin="1230,490" x="270" y="220"/>
-      <circ-port dir="in" pin="1230,640" x="270" y="190"/>
-      <circ-port dir="in" pin="150,300" x="270" y="130"/>
-      <circ-port dir="in" pin="150,450" x="270" y="160"/>
-      <circ-port dir="in" pin="170,120" x="50" y="180"/>
-      <circ-port dir="in" pin="170,90" x="50" y="150"/>
-      <circ-port dir="in" pin="210,260" x="130" y="40"/>
-      <circ-port dir="in" pin="210,410" x="190" y="40"/>
-      <circ-port dir="in" pin="230,890" x="50" y="210"/>
-      <circ-port dir="in" pin="270,1090" x="270" y="100"/>
-      <circ-port dir="out" pin="1270,590" x="270" y="70"/>
-      <circ-port dir="out" pin="1270,860" x="50" y="120"/>
-      <circ-port dir="out" pin="1370,70" x="50" y="240"/>
-      <circ-port dir="out" pin="980,1120" x="50" y="60"/>
-      <circ-port dir="out" pin="980,1160" x="50" y="90"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="67"/>
       <circ-port height="10" pin="1270,590" width="10" x="265" y="65"/>
       <circ-port height="10" pin="1270,860" width="10" x="45" y="115"/>
@@ -1808,7 +1756,6 @@
       <circ-port height="8" pin="210,410" width="8" x="186" y="36"/>
       <circ-port height="8" pin="230,890" width="8" x="46" y="206"/>
       <circ-port height="8" pin="270,1090" width="8" x="266" y="96"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(1030,380)" name="Splitter">
       <a name="appear" val="right"/>
@@ -2090,11 +2037,7 @@
       <a name="trigger" val="falling"/>
       <a name="width" val="1"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(315,1095)" name="Text">
-=======
     <comp lib="8" loc="(319,1099)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
@@ -2391,18 +2334,6 @@
       <rect height="20" stroke="none" width="200" x="61" y="180"/>
       <rect fill="none" height="150" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="163" y="195">Memory</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="80"/>
-      <circ-port dir="in" pin="130,500" x="270" y="100"/>
-      <circ-port dir="in" pin="140,220" x="100" y="40"/>
-      <circ-port dir="in" pin="140,250" x="130" y="40"/>
-      <circ-port dir="in" pin="140,280" x="160" y="40"/>
-      <circ-port dir="in" pin="150,390" x="270" y="120"/>
-      <circ-port dir="in" pin="180,370" x="50" y="160"/>
-      <circ-port dir="in" pin="190,540" x="50" y="80"/>
-      <circ-port dir="in" pin="800,580" x="270" y="80"/>
-      <circ-port dir="out" pin="800,540" x="50" y="120"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="77"/>
       <circ-port height="10" pin="800,540" width="10" x="45" y="115"/>
       <circ-port height="8" pin="130,500" width="8" x="266" y="96"/>
@@ -2413,7 +2344,6 @@
       <circ-port height="8" pin="180,370" width="8" x="46" y="156"/>
       <circ-port height="8" pin="190,540" width="8" x="46" y="76"/>
       <circ-port height="8" pin="800,580" width="8" x="266" y="76"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(130,500)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -2488,11 +2418,7 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="enables" val="line"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(215,375)" name="Text">
-=======
     <comp lib="8" loc="(217,379)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
@@ -2544,19 +2470,6 @@
       <rect height="20" stroke="none" width="200" x="60" y="150"/>
       <rect fill="none" height="120" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="164">Decode</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="60"/>
-      <circ-port dir="in" pin="110,150" x="50" y="60"/>
-      <circ-port dir="in" pin="140,150" x="50" y="80"/>
-      <circ-port dir="in" pin="150,370" x="50" y="120"/>
-      <circ-port dir="in" pin="150,500" x="50" y="140"/>
-      <circ-port dir="in" pin="240,320" x="50" y="100"/>
-      <circ-port dir="out" pin="750,220" x="270" y="60"/>
-      <circ-port dir="out" pin="750,350" x="270" y="80"/>
-      <circ-port dir="out" pin="750,480" x="270" y="100"/>
-      <circ-port dir="out" pin="750,610" x="270" y="120"/>
-      <circ-port dir="out" pin="750,730" x="270" y="140"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
       <circ-port height="10" pin="750,220" width="10" x="265" y="55"/>
       <circ-port height="10" pin="750,350" width="10" x="265" y="75"/>
@@ -2568,7 +2481,6 @@
       <circ-port height="8" pin="150,370" width="8" x="46" y="116"/>
       <circ-port height="8" pin="150,500" width="8" x="46" y="136"/>
       <circ-port height="8" pin="160,320" width="8" x="46" y="96"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(110,150)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -2588,28 +2500,17 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="load_high"/>
     </comp>
-<<<<<<< HEAD
-=======
     <comp lib="0" loc="(160,320)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="Half_Instruction"/>
       <a name="width" val="8"/>
     </comp>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     <comp lib="0" loc="(180,180)" name="Tunnel">
       <a name="label" val="rst"/>
     </comp>
     <comp lib="0" loc="(180,210)" name="Tunnel">
       <a name="label" val="clk"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="0" loc="(240,320)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="Half_Instruction"/>
-      <a name="width" val="8"/>
-    </comp>
-=======
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     <comp lib="0" loc="(320,390)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
@@ -2821,11 +2722,7 @@
     <comp lib="4" loc="(660,580)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(615,620)" name="Text">
-=======
     <comp lib="8" loc="(616,620)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
@@ -2835,11 +2732,7 @@
     <wire from="(140,180)" to="(180,180)"/>
     <wire from="(150,370)" to="(350,370)"/>
     <wire from="(150,500)" to="(350,500)"/>
-<<<<<<< HEAD
-    <wire from="(240,320)" to="(250,320)"/>
-=======
     <wire from="(160,320)" to="(250,320)"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     <wire from="(250,320)" to="(250,350)"/>
     <wire from="(250,350)" to="(250,480)"/>
     <wire from="(250,350)" to="(350,350)"/>
@@ -2943,32 +2836,6 @@
       <rect height="20" stroke="none" width="200" x="61" y="394"/>
       <rect fill="none" height="403" stroke="#000000" stroke-width="2" width="200" x="60" y="10"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="161" y="408">controlUnit</text>
-<<<<<<< HEAD
-      <circ-anchor facing="east" x="270" y="60"/>
-      <circ-port dir="in" pin="120,710" x="50" y="380"/>
-      <circ-port dir="in" pin="340,570" x="50" y="30"/>
-      <circ-port dir="in" pin="70,460" x="50" y="90"/>
-      <circ-port dir="in" pin="70,490" x="50" y="120"/>
-      <circ-port dir="out" pin="1330,320" x="270" y="240"/>
-      <circ-port dir="out" pin="1350,130" x="270" y="100"/>
-      <circ-port dir="out" pin="1350,150" x="270" y="120"/>
-      <circ-port dir="out" pin="1350,170" x="270" y="140"/>
-      <circ-port dir="out" pin="1350,210" x="270" y="160"/>
-      <circ-port dir="out" pin="1350,230" x="270" y="180"/>
-      <circ-port dir="out" pin="1350,250" x="270" y="200"/>
-      <circ-port dir="out" pin="1350,270" x="270" y="220"/>
-      <circ-port dir="out" pin="1350,30" x="270" y="20"/>
-      <circ-port dir="out" pin="1350,460" x="270" y="260"/>
-      <circ-port dir="out" pin="1350,480" x="270" y="280"/>
-      <circ-port dir="out" pin="1350,50" x="270" y="40"/>
-      <circ-port dir="out" pin="1350,500" x="270" y="300"/>
-      <circ-port dir="out" pin="1350,540" x="270" y="320"/>
-      <circ-port dir="out" pin="1350,560" x="270" y="340"/>
-      <circ-port dir="out" pin="1350,580" x="270" y="360"/>
-      <circ-port dir="out" pin="1350,70" x="270" y="60"/>
-      <circ-port dir="out" pin="1350,90" x="270" y="80"/>
-      <circ-port dir="out" pin="550,40" x="270" y="380"/>
-=======
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
       <circ-port height="10" pin="1330,320" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1350,130" width="10" x="265" y="95"/>
@@ -2993,7 +2860,6 @@
       <circ-port height="8" pin="340,570" width="8" x="46" y="26"/>
       <circ-port height="8" pin="70,460" width="8" x="46" y="86"/>
       <circ-port height="8" pin="70,490" width="8" x="46" y="116"/>
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
     </appear>
     <comp lib="0" loc="(100,460)" name="Tunnel">
       <a name="label" val="clk"/>
@@ -3266,11 +3132,7 @@
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
-<<<<<<< HEAD
-    <comp lib="8" loc="(175,335)" name="Text">
-=======
     <comp lib="8" loc="(179,337)" name="Text">
->>>>>>> b5f46b5e78511adad11e4ce79d550f0b3b71ad5d
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
