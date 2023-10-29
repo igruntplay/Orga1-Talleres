@@ -1,0 +1,6 @@
+ |00| SET R0 , 0x0000
+ |02| SIG R0
+ |04| SIG R0
+ |06| SIG R0
+ |08| SIG R0
+ |0a| SIG R0
