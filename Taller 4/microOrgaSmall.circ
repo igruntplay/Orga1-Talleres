@@ -1756,6 +1756,7 @@
       <circ-port dir="in" pin="150,300" x="270" y="130"/>
       <circ-port dir="in" pin="150,450" x="270" y="160"/>
       <circ-port dir="in" pin="170,120" x="50" y="180"/>
+      <circ-port dir="in" pin="170,350" x="270" y="140"/>
       <circ-port dir="in" pin="170,90" x="50" y="150"/>
       <circ-port dir="in" pin="210,260" x="130" y="40"/>
       <circ-port dir="in" pin="210,410" x="190" y="40"/>
@@ -1856,6 +1857,10 @@
     <comp lib="0" loc="(170,120)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(170,350)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(170,90)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -2051,6 +2056,9 @@
       <a name="font" val="SansSerif bold 28"/>
       <a name="text" val="X"/>
     </comp>
+    <comp lib="8" loc="(639,1180)" name="Text">
+      <a name="text" val="MIX = 1011 "/>
+    </comp>
     <comp lib="8" loc="(705,390)" name="Text">
       <a name="text" val="ADD = 0001"/>
     </comp>
@@ -2093,6 +2101,7 @@
     <comp lib="8" loc="(730,980)" name="Text">
       <a name="text" val="CONSTANTES"/>
     </comp>
+    <comp loc="(770,1200)" name="MIX"/>
     <wire from="(1000,190)" to="(1000,210)"/>
     <wire from="(1000,300)" to="(1000,310)"/>
     <wire from="(1000,310)" to="(1010,310)"/>
@@ -2147,7 +2156,9 @@
     <wire from="(340,960)" to="(510,960)"/>
     <wire from="(350,260)" to="(430,260)"/>
     <wire from="(350,410)" to="(400,410)"/>
+    <wire from="(400,1160)" to="(400,1220)"/>
     <wire from="(400,1160)" to="(980,1160)"/>
+    <wire from="(400,1220)" to="(550,1220)"/>
     <wire from="(400,410)" to="(400,490)"/>
     <wire from="(400,410)" to="(510,410)"/>
     <wire from="(400,490)" to="(400,570)"/>
@@ -2162,7 +2173,9 @@
     <wire from="(400,740)" to="(510,740)"/>
     <wire from="(400,810)" to="(400,1160)"/>
     <wire from="(400,810)" to="(510,810)"/>
+    <wire from="(430,1120)" to="(430,1200)"/>
     <wire from="(430,1120)" to="(980,1120)"/>
+    <wire from="(430,1200)" to="(550,1200)"/>
     <wire from="(430,260)" to="(430,390)"/>
     <wire from="(430,390)" to="(430,470)"/>
     <wire from="(430,390)" to="(510,390)"/>
@@ -2246,6 +2259,7 @@
     <wire from="(700,170)" to="(710,170)"/>
     <wire from="(700,210)" to="(740,210)"/>
     <wire from="(740,190)" to="(740,210)"/>
+    <wire from="(770,1200)" to="(850,1200)"/>
     <wire from="(770,130)" to="(780,130)"/>
     <wire from="(770,540)" to="(770,560)"/>
     <wire from="(770,540)" to="(900,540)"/>
@@ -2272,6 +2286,8 @@
     <wire from="(830,520)" to="(900,520)"/>
     <wire from="(830,600)" to="(830,950)"/>
     <wire from="(830,600)" to="(900,600)"/>
+    <wire from="(850,620)" to="(850,1200)"/>
+    <wire from="(850,620)" to="(900,620)"/>
     <wire from="(860,630)" to="(860,1010)"/>
     <wire from="(860,630)" to="(900,630)"/>
     <wire from="(870,130)" to="(870,330)"/>
@@ -2282,9 +2298,7 @@
     <wire from="(880,500)" to="(880,510)"/>
     <wire from="(880,510)" to="(880,610)"/>
     <wire from="(880,510)" to="(900,510)"/>
-    <wire from="(880,610)" to="(880,620)"/>
     <wire from="(880,610)" to="(900,610)"/>
-    <wire from="(880,620)" to="(900,620)"/>
     <wire from="(880,650)" to="(880,1050)"/>
     <wire from="(880,650)" to="(900,650)"/>
     <wire from="(890,660)" to="(890,1070)"/>
@@ -3324,6 +3338,7 @@ b 80000000 14*0 80000000 15*0 80000000 15*0 80000000
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(150,320)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="A"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(170,310)" name="Splitter">
@@ -3332,6 +3347,7 @@ b 80000000 14*0 80000000 15*0 80000000 15*0 80000000
     </comp>
     <comp lib="0" loc="(170,470)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="B"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(170,470)" name="Splitter">
@@ -3346,6 +3362,7 @@ b 80000000 14*0 80000000 15*0 80000000 15*0 80000000
     <comp lib="0" loc="(950,310)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="MIXI"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
