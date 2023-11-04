@@ -6,7 +6,12 @@
     MM_enOut DE_loadL PC_inc
     load_microOp
     reset_microOp
-    reset_microOp ; COMPLETAR
+    ALU_OP=cte0xFF 
+    ALU_enOut MM_enAddr // dump de FF al datapath + cargar addr
+    PC_enOut MM_load // dump de pc + cargar load
+    IC_INTA
+
+
 
 00001: ; ADD
     RB_enOut  ALU_enA  RB_selectIndexOut=0
@@ -158,13 +163,18 @@
     reset_microOp
 
 11100: ; STI
-    reset_microOp ; COMPLETAR
+    IC_STI
+    reset_microOp
 
 11101: ; CLI
-    reset_microOp ; COMPLETAR
+    IC_CLI
+    reset_microOp
 
 11110: ; IRET
-    reset_microOp ; COMPLETAR
+    ALU_enOut ALU_OP=cte0xFF MM_enAddr
+    MM_enOut PC_load
+    IC_CLI
+    reset_microOp
 
 11111: ; SET
     DE_enOutImm RB_enIn
