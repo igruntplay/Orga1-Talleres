@@ -13,7 +13,7 @@
     ALU_OP=cte0x00
     ALU_enOut MM_enAddr
     MM_enOut PC_load
-    IC_INTA
+    IC_INTA // La interrupción ya fue "aknowledgeada"
     reset_microOp
 
 
