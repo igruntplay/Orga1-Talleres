@@ -9,7 +9,7 @@
     ALU_OP=cte0xFF 
     ALU_enOut MM_enAddr // dump de FF al datapath + cargar addr
     PC_enOut MM_load // dump de pc + cargar load
-    IC_INTA
+    IC_INTA // La interrupción ya fue "aknowledgeada"
 
 
 
