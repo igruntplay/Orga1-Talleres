@@ -9,7 +9,12 @@
     ALU_OP=cte0xFF 
     ALU_enOut MM_enAddr // dump de FF al datapath + cargar addr
     PC_enOut MM_load // dump de pc + cargar load
+    IC_CLI
+    ALU_OP=cte0x00
+    ALU_enOut MM_enAddr
+    MM_enOut PC_load
     IC_INTA
+    reset_microOp
 
 
 

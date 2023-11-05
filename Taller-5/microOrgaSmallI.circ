@@ -2670,7 +2670,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
-    <comp lib="0" loc="(630,420)" name="Tunnel">
+    <comp lib="0" loc="(630,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="rst"/>
     </comp>
@@ -2788,12 +2788,13 @@
     <wire from="(630,260)" to="(660,260)"/>
     <wire from="(630,290)" to="(690,290)"/>
     <wire from="(630,390)" to="(660,390)"/>
-    <wire from="(630,410)" to="(690,410)"/>
+    <wire from="(630,430)" to="(690,430)"/>
     <wire from="(630,520)" to="(660,520)"/>
     <wire from="(630,550)" to="(690,550)"/>
     <wire from="(630,650)" to="(660,650)"/>
     <wire from="(630,680)" to="(690,680)"/>
     <wire from="(690,280)" to="(690,290)"/>
+    <wire from="(690,410)" to="(690,430)"/>
     <wire from="(690,540)" to="(690,550)"/>
     <wire from="(690,670)" to="(690,680)"/>
     <wire from="(720,220)" to="(750,220)"/>
