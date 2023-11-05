@@ -7,13 +7,13 @@
     load_microOp
     reset_microOp
     ALU_OP=cte0xFF 
-    ALU_enOut MM_enAddr // dump de FF al datapath + cargar addr
-    PC_enOut MM_load // dump de pc + cargar load
-    IC_CLI
+    ALU_enOut MM_enAddr
+    PC_enOut MM_load
+    IC_cli
     ALU_OP=cte0x00
     ALU_enOut MM_enAddr
     MM_enOut PC_load
-    IC_INTA // La interrupción ya fue "aknowledgeada"
+    IC_inta
     reset_microOp
 
 
@@ -168,17 +168,17 @@
     reset_microOp
 
 11100: ; STI
-    IC_STI
+    IC_sti
     reset_microOp
 
 11101: ; CLI
-    IC_CLI
+    IC_cli
     reset_microOp
 
 11110: ; IRET
     ALU_enOut ALU_OP=cte0xFF MM_enAddr
     MM_enOut PC_load
-    IC_CLI
+    IC_cli
     reset_microOp
 
 11111: ; SET
