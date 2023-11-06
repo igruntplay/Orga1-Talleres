@@ -1,0 +1,8 @@
+ |00| STI
+ |02| STI
+ |04| STI
+ |06| STI
+ |08| STI
+ |0a| CLI
+ |0c| CLI
+ |0e| CLI
