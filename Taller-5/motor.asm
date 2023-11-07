@@ -1,5 +1,3 @@
-loop MOTOR:
-
 SET R1, 0x0C 
 SET R2, 0x0F 
 SET R3, rai
