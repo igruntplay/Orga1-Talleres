@@ -4,11 +4,13 @@ SET R4, 0x00 //comparador cero
 SET R5, 0x00 //store velocidades
 SET R6, 0x20 // comp bocina
 STR [0x00], R1
-STI
+
 
 SET R2, 0x02 // intensidad inicial bocina
 STR [0xF1], R2 
 SET R3, 0x00  // cantidad de curvas atravesadas
+
+STI
 
 faseVelocidad: 
 CMP R0, R4 // inicio del ciclo
